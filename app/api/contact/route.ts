@@ -3,7 +3,7 @@ import { Resend } from "resend"
 import { ContactEmail } from "@/components/emails/contact-email"
 
 // const resend = new Resend(process.env.RESEND_API_KEY ?? "")
-const resend = new Resend("")
+const resend = new Resend("re_aJedS9Qh_KL7CFR59iqHhNae52dzrHcK7");
 
 export async function POST(request: NextRequest) {
   try {
